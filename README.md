@@ -1,79 +1,126 @@
+# Dashboard Icons
+
+[![jsDelivr hits](https://img.shields.io/jsdelivr/gh/hy/walkxcode/dashboard-icons?style=flat-square&color=%23A020F0)](https://www.jsdelivr.com/package/gh/walkxcode/dashboard-icons)
+[![jsDelivr hits](https://img.shields.io/jsdelivr/gh/hy/homarr-labs/dashboard-icons?style=flat-square&color=%23A020F0)](https://www.jsdelivr.com/package/gh/homarr-labs/dashboard-icons)
+[![GitHub Stars](https://img.shields.io/github/stars/homarr-labs/dashboard-icons?style=flat-square&color=yellow)](https://github.com/homarr-labs/dashboard-icons/stargazers)
+[![Contributors](https://img.shields.io/github/contributors/homarr-labs/dashboard-icons?style=flat-square&color=blue)](https://github.com/homarr-labs/dashboard-icons/graphs/contributors)
+
+> **Your definitive source for dashboard icons.**
+
+A collection of over 1800 curated icons for services, applications and tools, designed specifically for dashboards and app directories.
+
+**[→ Browse the collection at dashboardicons.com](https://dashboardicons.com)**
+
+## Why Dashboard Icons?
+
+- **Comprehensive Collection**: 1800+ icons for all popular services and tools
+- **Consistent Style**: Uniform visual language across different services
+- **Multiple Formats**: Available in SVG, PNG, and WEBP to suit your needs
+- **Light & Dark Variants**: Icons optimized for both light and dark themes
+- **Community-Driven**: Easy process to request missing icons
+
 <p align="center">
-  <h2 align="center"> 🟣 Dashboard Icons </h3>
-  <p align="center">
-    <a href="https://www.jsdelivr.com/package/gh/walkxcode/dashboard-icons">
-      <img src="https://img.shields.io/jsdelivr/gh/hy/walkxcode/dashboard-icons?color=%23A020F0" alt="JSdelivr weekly downloads badge">
-    </a>
-  </p>
-  <p align="center">
-    🚀 The best place to find icons for your dashboards.
-    <br />
-    <a href="#-icons"><strong>👀 See the icons</strong></a> • <a href="https://shop.walkx.fyi/l/donate" target="_blank"><strong>🙌🏻 Donate</strong></a>
-    <br />
-    <br />
-  </p>
+  <a href="https://dashboardicons.com">
+    <video width="650" autoplay loop muted playsinline>
+      <source src="assets/preview.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </a>
 </p>
 
-# 📖 Table of Contents
+## Using the Icons
 
-- [🚀 Getting Started](#-getting-started)
-  - [📊 Dashboards](#-dashboards)
-  - [🛠️ Installation](#️-installation)
-- [🎨 Icons](#-icons)
-- [🎉 Contributing Guidelines](#-contributing-guidelines)
-- [📜 Legal](#-legal)
+### Website
 
-## 🚀 Getting Started
+Find and download icons at [dashboardicons.com](https://dashboardicons.com):
 
-### 📊 Dashboards
+1. Search for the icon you need
+2. Click on an icon to view details
+3. Choose your preferred format
+4. Download or copy the direct link
 
-There are many Dashboards available that you can use with Dashboard Icons. Here are some of the popular ones.
+### Direct Links
 
-- [Homarr](https://github.com/ajnart/homarr)\*
-- [Dashy](https://github.com/Lissy93/dashy)\*
-- [Homer Dashboard](https://github.com/bastienwirtz/homer)
-- [Heimdall](https://github.com/linuxserver/Heimdall)
-- [Organizr(v2)](https://github.com/causefx/Organizr)
-- [Flame](https://github.com/pawelmalak/flame)
-- [SUI](https://github.com/jeroenpardon/sui)
-- [Homepage](https://github.com/gethomepage/homepage)\*
+Use icons from CDN with this pattern:
 
-**Note:** Dashboards with a \* have native integration with Dashboard Icons.
-
-### 🛠️ Installation
-
-**Tip!** You can access Dashboard Icons online, faster, by using `https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/example.png`. Just replace `example` with the name of the icon!
-
-To download an icon from the [icons page](#-icons), simply `Right click > Save link as`.
-
-For non-desktop operating systems or people who prefer to use the terminal:
-
-```sh
-$ curl -O https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/example.png
+```
+<Base URL>/<Format>/<Icon Name>.<Format>
 ```
 
-or
+**Base URL options:**
+- jsDelivr (recommended): `https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons`
+- GitHub Direct: `https://raw.githubusercontent.com/homarr-labs/dashboard-icons/main`
 
-```sh
-$ wget https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/example.png
+**Example:**
+```html
+<img src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/plex.svg" alt="Plex">
 ```
 
-## 🎨 Icons
-**⚠️ Warning!**  Going to this page will load every single icon in the repository. This might cause:
-- 📉 An excessive amount of data use.
-- 💻 System slowdowns.
-	- 🌐 Browser crashes.
+### Technical Details
 
-*If your device cannot handle loading more than 1000 images, we advise to not go to this page.*
+- **Naming Convention**: Kebab-case (lowercase with hyphens)
+  - Example: "Nextcloud Calendar" → `nextcloud-calendar`
 
-➡️ Click [**here**](ICONS.md) to display all icons.
+- **Available Formats**:
+  - SVG: Vector format (original source)
+  - PNG: 512px height (auto-generated)
+  - WEBP: 512px height (auto-generated)
 
-## 🎉 Contributing Guidelines
-Please read the [Contributing Guidelines](CONTRIBUTING.md) before contributing to this project.
+- **Variants**:
+  - `-light` suffix for dark backgrounds (e.g., `github-light.svg`)
+  - `-dark` suffix for light backgrounds (e.g., `github-dark.svg`)
 
-## 📜 Legal
+- **Command Line**:
+  ```bash
+  # Download with curl
+  curl -O https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/nextcloud.svg
 
-Please read our [LICENSE](LICENSE) for information regarding the use of our software and assets. By accessing or using this repository, you agree to be bound by the terms and conditions of the license.
+  # Download with wget
+  wget https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/nextcloud.svg
+  ```
 
-If you have any questions or concerns regarding the license, please contact us at contact@walkx.fyi before using or distributing the contents of this repository.
+## Dashboard Integration
 
+These icons integrate seamlessly with popular dashboard applications:
+
+- [Homarr](https://github.com/ajnart/homarr)
+- [Homepage](https://github.com/gethomepage/homepage)
+- [Dashy](https://github.com/Lissy93/dashy)
+
+...and many others!
+
+## Contributing
+
+### Request Icons
+
+Need an icon that's not in our collection?
+
+1. Check the [Contribution Guidelines](CONTRIBUTING.md) for specifications
+2. Submit a request using our [issue templates](https://github.com/homarr-labs/dashboard-icons/issues/new/choose)
+3. Provide service details and optionally upload the icon
+4. Our team will review, optimize, and add it to the collection
+
+### Improve the Repository
+
+Want to help with the repository itself?
+
+- Review our [Contribution Guidelines](CONTRIBUTING.md)
+- Fork the repository, make your changes, and submit a pull request
+- We welcome help with documentation, website improvements, and maintenance
+
+## Support
+
+- **GitHub Issues**: Report bugs or request icons
+- **Email**: [homarr-labs@proton.me](mailto:homarr-labs@proton.me)
+
+## Legal
+
+**Disclaimer**: All product names, trademarks, and registered trademarks are the property of their respective owners. Icons are used for identification purposes only and do not imply endorsement.
+
+**License**: This project is available under the terms of the [LICENSE](LICENSE) file.
+
+---
+
+<p align="center">
+  Made with ♥ by the <a href="https://github.com/homarr-labs">Homarr Labs</a> team and contributors
+</p>

@@ -1,32 +1,104 @@
-# 🎉 Contributing Guidelines
+# Contributing to Dashboard Icons
 
-Thank you for your interest in contributing to our icon repository! To ensure that everything runs smoothly, we've set out some guidelines for contributors.
+Thank you for your interest in contributing to our icon collection! These guidelines will help ensure smooth collaboration and maintain the quality of our collection.
 
-## 🌟 Icon Specifications
+## Table of Contents
 
-- Each icon should include both a **PNG** and **SVG** version. If an **SVG** cannot be found, then only a **PNG** version is required.
-- Each icon should be in **PNG** format and have a height of exactly **512px**. Width does not matter. ❗️(No upscales! If the correct size cannot be found, a smaller height will be accepted.)
-- Icons should be named after their full name, using the [Kebab Case](https://wiki.c2.com/?KebabCase) naming convention. For example, "Facebook Messenger" should be named `facebook-messenger.png`.
-- Monochrome icons should default to a dark version. Light versions should be named `service-light.png`. If a light version is not available, use [https://pinetools.com/colorize-image](https://pinetools.com/colorize-image) to change its color.
+- [Contributing to Dashboard Icons](#contributing-to-dashboard-icons)
+  - [Table of Contents](#table-of-contents)
+  - [Icon Specifications](#icon-specifications)
+    - [Format Requirements](#format-requirements)
+    - [Quality Standards](#quality-standards)
+    - [Light \& Dark Variants](#light--dark-variants)
+    - [File Naming](#file-naming)
+  - [Requesting New Icons](#requesting-new-icons)
+  - [Improving the Repository](#improving-the-repository)
+  - [Code of Conduct](#code-of-conduct)
+  - [Questions?](#questions)
 
+## Icon Specifications
 
-## 💻 Gitmoji Commits
+### Format Requirements
 
-- Please use [Gitmoji](https://gitmoji.dev/) in your commit messages. This helps us keep our commit history clear and easy to understand. For example, you might use the `🍱` emoji for a commit that updates an icon's color, or the `📝` emoji for a commit that updates the documentation.
+- **SVG Format**: All icons must be submitted in SVG format
+- **Auto-Generated Formats**: PNG and WEBP versions are generated automatically with:
+  - Height: 512 pixels
+  - Width: Auto (maintaining aspect ratio)
+  - Transparency: Enabled
 
+### Quality Standards
 
-## 🤝 Contributing
+- **Clean SVG**: No embedded raster images in SVG files
+- **Proper Cropping**: Remove empty space for proper centering
+  - Use [SVG Crop](https://svgcrop.com/) for assistance
+- **No Upscaling**: Maintain original quality without artificial enlargement
 
-1. Fork the repository to your own GitHub account.
-2. Clone the repository to your local machine.
-3. Add your icon(s) to the repository, following the specifications listed above.
-4. Push your changes to your fork.
-5. Create a pull request in the main repository.
+### Light & Dark Variants
 
-## 🚨 Code of Conduct
+For monochrome or single-color icons:
 
-Please note that by contributing to this repository, you agree to abide by our code of conduct, which can be found in the [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) file in the repository.
+- **Light Variant**: Required for dark backgrounds
+  - Invert black elements
+  - Adjust colors for visibility
+- **Dark Variant**: Required for light backgrounds
+  - Invert white elements
+  - Adjust colors for visibility
 
----
+**Tool Recommendation**: [DEEditor](https://deeditor.com/) for color adjustments
 
-If you have any questions or concerns, please don't hesitate to reach out to me at contact@walkx.fyi. Happy contributing! 🙌
+### File Naming
+
+- **Kebab Case**: Use lowercase with hyphens
+  - Example: "Nextcloud Calendar" → `nextcloud-calendar.svg`
+- **Variant Suffixes**:
+  - `-light` for dark backgrounds
+  - `-dark` for light backgrounds
+
+## Requesting New Icons
+
+To request a new icon:
+
+1. **Create an Issue**:
+   - Use the appropriate [issue template](https://github.com/homarr-labs/dashboard-icons/issues/new/choose)
+   - Choose between "Light & dark icon" or "Normal icon" template
+
+2. **Provide Information**:
+   - Service/application name
+   - Official logo or icon source
+   - Any specific requirements or notes
+
+3. **Upload Icon** (optional):
+   - Attach the SVG file directly to the issue
+   - Include both light and dark variants if applicable
+
+4. **Wait for Review**:
+   - Our team will review your request
+   - We may request adjustments if needed
+   - Once approved, we'll add the icon to the collection
+
+## Improving the Repository
+
+To contribute to the repository itself:
+
+1. **Fork the Repository**
+2. **Make Your Changes**:
+   - Documentation improvements
+   - Website enhancements
+   - Repository maintenance
+   - Bug fixes
+
+3. **Submit a Pull Request**:
+   - Use semantic commit messages following the format: `<type>(scope): description`
+     - `feat(icons): add nextcloud-calendar`
+     - `fix(website): correct icon preview`
+     - `docs(readme): update installation instructions`
+   - Reference any related issues
+   - Follow our [Code of Conduct](CODE_OF_CONDUCT.md)
+
+## Code of Conduct
+
+By contributing, you agree to abide by our [Code of Conduct](CODE_OF_CONDUCT.md). Please review it to understand the expectations for all participants.
+
+## Questions?
+
+If you have any questions or need assistance, contact us at [homarr-labs@proton.me](mailto:homarr-labs@proton.me).

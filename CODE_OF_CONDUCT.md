@@ -1,23 +1,42 @@
-# 🚨 Code of Conduct
+# Code of Conduct
 
-We are committed to providing a welcoming and harassment-free environment for everyone who wants to participate in our icon repository, regardless of gender, gender identity and expression, sexual orientation, disability, physical appearance, body size, race, age, religion, or nationality.
+## Our Commitment
 
-## 💬 Communication
+We are committed to maintaining a welcoming and inclusive environment for everyone who contributes to our icon collection. This includes people of all backgrounds, identities, and experiences.
 
-All communication should be appropriate for a professional audience including people of many different backgrounds. Be respectful, considerate, and constructive in all communication, both online and offline.
+## Expected Behavior
 
-## 🚫 Prohibited Behavior
+- Be respectful and constructive in all communications
+- Focus on what's best for the community
+- Show empathy towards other community members
+- Be open to different viewpoints and experiences
 
-Harassment, intimidation, discrimination, or any other inappropriate conduct or behavior will not be tolerated. This includes, but is not limited to, the use of sexual language or imagery, deliberate intimidation, stalking, following, harassing photography or recording, sustained disruption of talks or other events, inappropriate physical contact, and unwelcome sexual attention.
+## Unacceptable Behavior
 
-## 📢 Reporting
+The following behaviors are unacceptable:
 
-If you believe someone is violating the code of conduct, please report it immediately to contact@walkx.fyi. All reports will be reviewed and investigated promptly and confidentially.
+- Harassment, discrimination, or intimidation
+- Offensive comments related to personal characteristics
+- Unwelcome sexual attention or advances
+- Disruptive behavior in community spaces
+- Any other conduct that could reasonably be considered inappropriate
 
-## 🚨 Consequences
+## Reporting
 
-Anyone found to be engaging in behavior that violates the code of conduct will be subject to appropriate action, which may include, but is not limited to, warning, removal from the repository, or banning from participation in the repository.
+If you experience or witness behavior that violates this code:
 
-## 👍 Acknowledgment
+1. Contact us at [homarr-labs@proton.me](mailto:homarr-labs@proton.me)
+2. Provide as much detail as possible about the incident
+3. All reports will be reviewed confidentially
 
-We ask that all participants in this repository agree to abide by this code of conduct. By contributing to this repository, you agree to these terms and conditions. Thank you for helping us create a welcoming and inclusive environment for all. 🙏
+## Enforcement
+
+Violations of this code may result in:
+
+- Warning
+- Temporary suspension
+- Permanent ban from the community
+
+## Attribution
+
+This Code of Conduct is adapted from the [Contributor Covenant](https://www.contributor-covenant.org/), version 2.0.
